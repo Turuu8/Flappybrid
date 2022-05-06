@@ -14,9 +14,13 @@ function Brid(x , y , r , color){
         ctx.arc(this.x , this.y , this.r , 0,2*Math.PI)
         ctx.fill();
     }
+
+    this.move =  function(){
+        ctx
+    }
 }
 
-const brid = new Brid(80 , 450 , 30 , "pink");
+const brid = new Brid(70 , 400 , 30 , "pink");
 brid.draw();
 
 
