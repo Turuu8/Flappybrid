@@ -14,10 +14,24 @@
             justify-content: center;
             align-items: center;
         }
+        button {
+            position: absolute;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            font-size: 3rem;
+            width: 300px;
+            height: 150px;
+            border-radius: 40px;
+            background: rgb(37, 184, 84);
+            background-image: linear-gradient(green  , yellow);
+            border: none;
+            box-shadow: 5px 5px 20px green inset, 5px 5px 20px green ;
+        }
     </style>
 </head>
 <body>
-    <canvas id="canvas" width="700", height="800" style="border: 1px solid black; "></canvas>
+    <canvas id="canvas" width="700", height="800" style="border: 1px solid black; opacity: 0.5; "></canvas>
+    <button>START</button>
     <script src="flappybrid.js"></script>
 </body>
 </html>
